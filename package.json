@@ -1,0 +1,19 @@
+{
+  "name": "yt-webpack2-basics",
+  "version": "0.0.0",
+  "description": "building project for learning webpack",
+  "main": "index1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config prod.config.js",
+    "build": "webpack -p"
+  },
+  "author": "Himanshu Kansal",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "0.26.2",
+    "style-loader": "0.13.2",
+    "webpack": "2.2.1",
+    "webpack-dev-server": "2.4.1"
+  }
+}
